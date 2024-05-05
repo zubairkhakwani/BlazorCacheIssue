@@ -1,0 +1,58 @@
+﻿@using BlazorPageScript
+@inherits LayoutComponentBase
+@layout SSRMustLayout
+
+
+<div class="main-container">
+    <header>
+        <nav class="top-nav">
+            <div class="brand-log">
+                <a href="/">
+                    <img class="logo" src="/Images/logo.png" alt="Robot" />
+                </a>
+            </div>
+            <ul class="primary-navigation">
+                <div class="divider">
+                    <div class="nav-left">
+                        <div class="nav nav-items">
+                <li class="nav-items">
+                    <a data-enhance-nav="false" class="nav-links hoverable-links" href="/">Home</a>
+                </li>
+                 <li class="nav-items">
+                    <a data-enhance-nav="false" class="nav-links hoverable-links" href="/#contact-us">Contact Us</a>
+                </li>
+                <li class="nav-items">
+                </li>
+                @*<li class="nav-items">
+                    <a class="nav-links hoverable-links" href="">About us</a>
+                </li>
+                <li class="nav-items">
+                    <a class="nav-links hoverable-links" href="">Reviews</a>
+                </li>
+                <li class="nav-items">
+                    <a class="nav-links hoverable-links" href="">Pricing</a>
+                </li>
+                <li class="nav-items">
+                    <a class="nav-links hoverable-links" href="">FaQs</a>
+                </li> *@
+                </div>
+                </div>
+                <div class="nav-right">
+                
+                </div>
+                </div>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar half-size"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+        @Body
+    </div>
+</div>
+
+<PageScript Src="./Components/Layout/MainLayoutTop.razor.js" />

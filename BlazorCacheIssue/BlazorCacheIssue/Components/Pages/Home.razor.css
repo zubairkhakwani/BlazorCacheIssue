@@ -1,0 +1,28 @@
+﻿.reveal
+{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+
+.reveal.active
+{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.contact-us-container 
+{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f3f4;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-us-container {
+        padding: 10px;
+    }
+}

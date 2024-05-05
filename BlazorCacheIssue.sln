@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCacheIssue", "BlazorCacheIssue\BlazorCacheIssue\BlazorCacheIssue.csproj", "{5FF313B3-54B3-4CF3-A9B5-52C78FAB147D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCacheIssue.Client", "BlazorCacheIssue\BlazorCacheIssue.Client\BlazorCacheIssue.Client.csproj", "{A29D8709-67E6-4D15-B2FF-EC5AC49E298A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FF313B3-54B3-4CF3-A9B5-52C78FAB147D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF313B3-54B3-4CF3-A9B5-52C78FAB147D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF313B3-54B3-4CF3-A9B5-52C78FAB147D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF313B3-54B3-4CF3-A9B5-52C78FAB147D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A29D8709-67E6-4D15-B2FF-EC5AC49E298A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29D8709-67E6-4D15-B2FF-EC5AC49E298A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29D8709-67E6-4D15-B2FF-EC5AC49E298A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29D8709-67E6-4D15-B2FF-EC5AC49E298A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EE31566-845F-4EE6-9D69-966960677CC0}
+	EndGlobalSection
+EndGlobal
